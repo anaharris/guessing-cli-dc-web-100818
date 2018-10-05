@@ -7,7 +7,7 @@ def run_guessing_game
     number = rand(1..6)
     puts "Input: #{input}"
     puts "Number: #{number}"
-    if input == number
+    if input.to_i == number
       puts "You guessed the correct number!"
     else 
       puts "The computer guessed #{number}."
