@@ -10,7 +10,7 @@ def run_guessing_game
     else 
       puts "The computer guessed #{number}."
     end
-    input1 = gets.chomp
+    input = gets.chomp
   end
   
 end
